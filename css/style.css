@@ -30,7 +30,9 @@
     z-index: 100;}
 
 /* Estilos generales */
-
+.bold{
+    font-weight: 400;
+}
 .fondoGris{
     background-color: #2D2F31;}
 
@@ -173,7 +175,7 @@
 .donacionesP{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 40px;
     margin-right: 20px;
     text-align: right;
@@ -215,7 +217,7 @@
     font-family: 'Roboto Slab', serif;
     color: #EFEFEF;
     font-size: 24px; 
-    font-weight: 400;
+    font-weight: 300;
     text-align: left;
     margin-top: 40px;
     margin-left: 20px;
