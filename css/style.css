@@ -276,18 +276,18 @@
 
 .footerTxt{
     font-family: 'Roboto', sans-serif;
-    text-decoration: none;
     margin-bottom: 10px;}
 
 a{
-    color: #EFEFEF;}
+    color: #EFEFEF;
+    text-decoration: none;}
       
 a:hover{
     color:#F9B234;}
       
 a:active{
     color: #EFEFEF;}
-    
+
 /*Desktop*/
 @media only screen and (min-width: 1024px) {
     .banner{
