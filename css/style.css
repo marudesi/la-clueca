@@ -276,8 +276,8 @@
 
 .footerTxt{
     font-family: 'Roboto', sans-serif;
-    list-style: none;
     text-decoration: none;
+    pointer-events: none;
     margin-bottom: 10px;}
 
 /*Desktop*/
