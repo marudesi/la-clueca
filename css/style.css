@@ -31,7 +31,7 @@
 
 /* Estilos generales */
 .bold{
-    font-weight: 400;
+    font-weight: 500;
 }
 .fondoGris{
     background-color: #2D2F31;}
@@ -78,14 +78,12 @@
     font-size: 1.5rem;
     margin-top: 10px;}
 
-
-
 /* Quienes somos */
 .nosotrosTitulo{
     font-family: 'Roboto Slab', serif;
     color: #2D2F31;
     letter-spacing: 0.2em;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     margin: 80px 0px 60px 0;
     padding-top: 20px;}
@@ -124,9 +122,6 @@
     margin-top: 15px;
     color: #2D2F31;}
 
-
-
-
 /* donaciones */
 #donaciones{
     margin-top: 50px;
@@ -137,8 +132,7 @@
 
 .donacionesItems{
     height: 500px;
-    width: 50%;
-}
+    width: 50%;}
 
 .donacionesImg{
     height: 100%;
@@ -157,7 +151,7 @@
     font-family: 'Roboto Slab', serif;
     color: #2D2F31;
     letter-spacing: 0.2em;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     margin: 80px 0px 60px 0;
     padding-top: 20px;}
@@ -191,9 +185,7 @@
     color: #EFEFEF;
     border-color: #EFEFEF;
     border-width: 1px;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-}
-
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);}
 
 /* producto */
 #productos{
@@ -201,14 +193,13 @@
     margin-bottom: 50px;
     padding-top: 40px;
     display:flex;
-    flex-direction: row;
-}
+    flex-direction: row;}
 
 .productosTitulo{
     font-family: 'Roboto Slab', serif;
     color: #EFEFEF;
     letter-spacing: 0.2em;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     margin: 80px 0px 60px 0;
     padding-top: 20px;}
@@ -223,14 +214,15 @@
     margin-left: 20px;
     letter-spacing: 2px;}
 
-    .productosP{
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        font-weight: 300;
-        margin-top: 40px;
-        margin-left: 20px;
-        text-align: left;
-        color: #EFEFEF;}
+.productosP{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: left;
+    color: #EFEFEF;}
+
 .productosImg{
     height: 500px;
     width: 100%;
@@ -249,14 +241,11 @@
     background-color: #F9B234;
     border: none;
     color: #2D2F31;
-    padding: 8px;
-}
+    padding: 8px;}
+
 .carousel{
     width: 300px;
-    height: 300px;
-}
-
-
+    height: 300px;}
 
 /* footer */
 #footer{
@@ -271,35 +260,31 @@
     color: #EFEFEF;
     width: 60px;
     height: 60px;
-    margin-top: 10px;
-}
+    margin-top: 10px;}
+
 .footerIconos:hover{
-    color: #F9B234;
-}
+    color: #F9B234;}
 
 .footerLogo{
     width: 80px;
     height: auto;
-    margin-top: 10px;
-}
+    margin-top: 10px;}
+
 .footerH3{
     font-family:'Roboto Slab', serif;
-    margin-top: 5px;
-}
+    margin-top: 5px;}
 
 .footerTxt{
     font-family: 'Roboto', sans-serif;
     list-style: none;
     text-decoration: none;
-    margin-bottom: 10px;
-}
+    margin-bottom: 10px;}
 
 /*Desktop*/
 @media only screen and (min-width: 1024px) {
     .banner{
         height: 400px;
-        background-position: top center;
-    }
+        background-position: top center;}
 
     .btnWsp:hover{
         text-decoration: none;
@@ -312,8 +297,7 @@
         border-width: 1px;}
     
     .donacionesSub{
-        margin-top: 60px;
-    }
+        margin-top: 60px;}
 }
 
 /*Tablet*/
@@ -340,9 +324,6 @@
         flex-direction: column-reverse;}
 
     .donacionesItems{
-  
         width: 100%;}
-        
-
 
 }
