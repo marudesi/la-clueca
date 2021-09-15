@@ -1,0 +1,346 @@
+*{
+    margin: 0px;
+    padding: 0px;}
+
+/* Barra de navegación */
+#navbar{
+    font-family: 'Roboto Slab', serif;
+    font-weight: medium;
+    background-color: #FFFFFF;
+    color: #2D2F31;}
+
+.nav-item{
+    margin-left: 1rem;
+    margin-top: 10px;}
+
+/* Botón Whatsapp */
+.btnWsp{
+    position: fixed;
+    width: 55px;
+    height:55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0DF053;
+    color: #FFFFFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    z-index: 100;}
+
+/* Estilos generales */
+
+.fondoGris{
+    background-color: #2D2F31;}
+
+.fondoRojo{
+    background-color: #CF0724;}
+
+
+.yellowSpan{
+    color: #F9B234;}
+
+.redSpan{
+    color: #CF0724;}
+
+/* Banner */
+.banner{
+    height: 350px;
+    width: 100%;
+    background-image: url(../media/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;}
+
+.bannerTxt{
+    font-family: 'Roboto Slab', serif;
+    color: #2D2F31;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+.bannerLogo{
+    width: 10%;
+    height: auto;
+    margin-top: 40px;}
+
+.bannerTitulo{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 15px;}
+
+.bannerSubtitulo{
+    font-weight: medium;
+    font-size: 1.5rem;
+    margin-top: 10px;}
+
+
+
+/* Quienes somos */
+.nosotrosTitulo{
+    font-family: 'Roboto Slab', serif;
+    color: #2D2F31;
+    letter-spacing: 0.2em;
+    font-size: 2rem;
+    text-align: center;
+    margin: 80px 0px 60px 0;
+    padding-top: 20px;}
+
+.nosotrosSec{ 
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;}
+
+.nosotrosItem{
+    height: auto;
+    width: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    position: relative;}
+    
+.nosotrosImg{
+    height: 300px;
+    width: 300px;
+    filter: grayscale(30%);
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.4);}
+
+.nosotrosSub{
+    font-family: 'Roboto Slab', serif;
+    color: #2D2F31;
+    font-size: 24px; 
+    font-weight: 400;
+    margin-top: 20px;
+    letter-spacing: 2px;}
+
+.nosotrosP{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 15px;
+    color: #2D2F31;}
+
+
+
+
+/* donaciones */
+#donaciones{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    display:flex;
+    flex-direction: row;}
+
+.donacionesItems{
+    height: 500px;
+    width: 50%;
+}
+
+.donacionesImg{
+    height: 100%;
+    width: auto;
+    background-image: url(../media/01donaciones.jpg);
+    filter: grayscale(30%);
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+.donacionesTitulo{
+    font-family: 'Roboto Slab', serif;
+    color: #2D2F31;
+    letter-spacing: 0.2em;
+    font-size: 2rem;
+    text-align: center;
+    margin: 80px 0px 60px 0;
+    padding-top: 20px;}
+
+.donacionesSub{
+    font-family: 'Roboto Slab', serif;
+    color: #2D2F31;
+    font-size: 24px; 
+    font-weight: 400;
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 20px;
+    letter-spacing: 2px;}
+
+.donacionesP{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-right: 20px;
+    text-align: right;
+    color: #EFEFEF;}
+    
+.btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 160px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #CF0724;
+    color: #EFEFEF;
+    border-color: #EFEFEF;
+    border-width: 1px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* producto */
+#productos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    display:flex;
+    flex-direction: row;
+}
+
+.productosTitulo{
+    font-family: 'Roboto Slab', serif;
+    color: #EFEFEF;
+    letter-spacing: 0.2em;
+    font-size: 2rem;
+    text-align: center;
+    margin: 80px 0px 60px 0;
+    padding-top: 20px;}
+
+.productosSub{
+    font-family: 'Roboto Slab', serif;
+    color: #EFEFEF;
+    font-size: 24px; 
+    font-weight: 400;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    letter-spacing: 2px;}
+
+    .productosP{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 40px;
+        margin-left: 20px;
+        text-align: left;
+        color: #EFEFEF;}
+.productosImg{
+    height: 500px;
+    width: 100%;
+    background-image: url(../media/01productos.jpg);
+    filter: grayscale(30%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+.botonReserva{
+    background-color: #F9B234;
+    border: none;
+    color: #2D2F31;
+    padding: 8px;
+}
+.carousel{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+/* footer */
+#footer{
+    height: 280px;
+    margin-top: 120px;
+    background-color: #CF0724;
+    color: #EFEFEF;
+    text-align: center;}
+
+.footerIconos{
+    font-size: 28px;
+    color: #EFEFEF;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+.footerIconos:hover{
+    color: #F9B234;
+}
+
+.footerLogo{
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+}
+.footerH3{
+    font-family:'Roboto Slab', serif;
+    margin-top: 5px;
+}
+
+.footerTxt{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1024px) {
+    .banner{
+        height: 400px;
+        background-position: top center;
+    }
+
+    .btnWsp:hover{
+        text-decoration: none;
+        background: #FFFFFF;
+        color: #0DF053;}
+    
+    .btn:hover{
+        background-color:#EFEFEF;
+        color: #CF0724;
+        border-width: 1px;}
+    
+    .donacionesSub{
+        margin-top: 60px;
+    }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/*Smartphone*/
+@media only screen and (max-width: 600px) {
+    .banner{
+        height: 300px;}
+    .bannerLogo{
+        width: 15%;}
+    
+    .bannerTitulo{
+        font-size: 2rem;}
+    
+    .bannerSubtitulo{
+        font-size: 1rem;}
+
+    #donaciones{
+        flex-direction: column;}
+
+    #productos{
+        flex-direction: column-reverse;}
+
+    .donacionesItems{
+  
+        width: 100%;}
+        
+
+
+}
