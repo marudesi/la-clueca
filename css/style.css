@@ -316,6 +316,9 @@
     
     .bannerSubtitulo{
         font-size: 1rem;}
+    
+    .nosotrosImg{
+        margin-top: 20px;}
 
     #donaciones{
         flex-direction: column;}
