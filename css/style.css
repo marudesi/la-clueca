@@ -286,7 +286,8 @@ a:hover{
     color:#F9B234;}
       
 a:active{
-    color: #EFEFEF;}
+    color: #EFEFEF;
+    text-decoration: none;}
 
 /*Desktop*/
 @media only screen and (min-width: 1024px) {
