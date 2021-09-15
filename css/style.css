@@ -277,10 +277,16 @@
 .footerTxt{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    margin-bottom: 10px;
-    color: #EFEFEF;}
-
-.footerTxt:active{
+    margin-bottom: 10px;}
+    a{
+        color: #EFEFEF;
+      }
+      
+      a:hover{
+        color:#F9B234;
+      }
+      
+      a:active{
         color: #EFEFEF;
       }
 /*Desktop*/
